@@ -22,3 +22,19 @@ sassOptions: {
 ```
 
 ### Routing
+
+URL: `http://localhost:4200/cart`
+
+app/router.js
+```
+Router.map(function() {
+  this.route('cart');
+});
+```
+
+Component:
+```
+app/routes/cart.js
+app/controllers/cart.js
+app/templates/cart.hbs
+```
