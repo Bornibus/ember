@@ -109,3 +109,14 @@ Route ------- model -------> Controller
 \|/
 predefined methods: beforeModel, afterModel, redirect, setupController
 ```
+
+### Component
+
+```
+ember g component <name>
+ember g component <name>/<subname>
+```
+
+In template, use `<Name/>` and `<Name::Subname/>`.
+
+
