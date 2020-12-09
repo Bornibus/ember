@@ -97,3 +97,15 @@ In `router.js`:
 ```
 this.route('not-found', { path: '/*path'})
 ```
+
+#### Routes and controllers
+```
+Route ------- model -------> Controller
+ |  \                            /
+ | model                properties & actions
+ |     \                        /
+ |      \---> Template <-------/
+ |
+\|/
+predefined methods: beforeModel, afterModel, redirect, setupController
+```
